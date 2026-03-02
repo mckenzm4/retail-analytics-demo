@@ -1,0 +1,104 @@
+table retail_sales
+	lineageTag: d9d776e6-d936-4774-b035-08794b8e29a4
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2035110b-c1a3-4731-a77b-4ebf63a739f4
+		summarizeBy: none
+		sourceColumn: date
+
+		variation Variation
+			isDefault
+			relationship: 428f55a6-94db-4e22-840c-8aed24bb438f
+			defaultHierarchy: LocalDateTable_c69aa4c1-dc2f-45a3-9b92-31d0a397cd5f.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column region
+		dataType: string
+		lineageTag: 0c999509-3893-49f2-b195-3a9e25b74455
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 0123c2c7-b41a-4e98-b6d3-6dfa3da21fd8
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column product
+		dataType: string
+		lineageTag: 846d6b63-8a33-4988-9b07-a543307f5186
+		summarizeBy: none
+		sourceColumn: product
+
+		annotation SummarizationSetBy = Automatic
+
+	column units_sold
+		dataType: int64
+		formatString: 0
+		lineageTag: 889ff67b-5ec1-428d-8114-9de442419703
+		summarizeBy: sum
+		sourceColumn: units_sold
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: double
+		lineageTag: c083e2ae-1412-4b35-986d-3f3282a5d28f
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column revenue
+		dataType: double
+		lineageTag: ad12c8f2-1297-40a7-a3c8-8e5338701cd1
+		summarizeBy: sum
+		sourceColumn: revenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cost
+		dataType: double
+		lineageTag: 7fa9199c-6f23-4c7a-9be9-5927d52eedb2
+		summarizeBy: sum
+		sourceColumn: cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column profit
+		dataType: double
+		lineageTag: 26c7896f-bf87-4f5b-8da5-8960617d5659
+		summarizeBy: sum
+		sourceColumn: profit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition retail_sales = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\micha\OneDrive\Documents\Personal Projects\retail-analytics-demo\retail_sales.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"date", type date}, {"region", type text}, {"category", type text}, {"product", type text}, {"units_sold", Int64.Type}, {"unit_price", type number}, {"revenue", type number}, {"cost", type number}, {"profit", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
