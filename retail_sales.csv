@@ -1,0 +1,501 @@
+date,region,category,product,units_sold,unit_price,revenue,cost,profit
+2024-01-01,Southeast,Bakery,Whole Wheat Bread,120,4.21,505.2,303.12,202.08
+2024-01-01,West,Frozen,Frozen Pizza,58,6.5,377.0,245.05,131.95
+2024-01-03,Southeast,Frozen,Frozen Vegetables,79,5.38,425.02,276.26,148.76
+2024-01-04,Northeast,Frozen,Frozen Vegetables,81,5.52,447.12,290.63,156.49
+2024-01-04,West,Produce,Apples,145,2.94,426.3,298.41,127.89
+2024-01-05,Midwest,Beverages,Sports Drink,83,3.6,298.8,164.34,134.46
+2024-01-05,Southeast,Beverages,Orange Juice,95,2.93,278.35,153.09,125.26
+2024-01-08,Southeast,Beverages,Orange Juice,126,3.05,384.3,211.37,172.93
+2024-01-09,Northeast,Bakery,White Bread,42,4.14,173.88,104.33,69.55
+2024-01-10,West,Produce,Carrots,157,2.61,409.77,286.84,122.93
+2024-01-11,Midwest,Bakery,Whole Wheat Bread,42,4.21,176.82,106.09,70.73
+2024-01-12,West,Bakery,White Bread,200,3.32,664.0,398.4,265.6
+2024-01-14,Northeast,Produce,Carrots,70,2.79,195.3,136.71,58.59
+2024-01-15,West,Bakery,Muffins,195,3.23,629.85,377.91,251.94
+2024-01-15,Midwest,Bakery,White Bread,85,3.54,300.9,180.54,120.36
+2024-01-16,Midwest,Beverages,Coffee,106,3.12,330.72,181.9,148.82
+2024-01-17,Southeast,Produce,Tomatoes,70,2.44,170.8,119.56,51.24
+2024-01-17,West,Beverages,Orange Juice,71,2.83,200.93,110.51,90.42
+2024-01-18,Southeast,Dairy,Milk,85,3.99,339.15,271.32,67.83
+2024-01-19,West,Frozen,Ice Cream,84,7.47,627.48,407.86,219.62
+2024-01-20,Southeast,Frozen,Frozen Pizza,34,5.73,194.82,126.63,68.19
+2024-01-20,Midwest,Bakery,Bagels,29,3.99,115.71,69.43,46.28
+2024-01-21,West,Bakery,Bagels,16,3.12,49.92,29.95,19.97
+2024-01-21,Midwest,Dairy,Cheese,132,3.78,498.96,399.17,99.79
+2024-01-22,West,Beverages,Coffee,118,2.69,317.42,174.58,142.84
+2024-01-23,Northeast,Produce,Carrots,89,2.7,240.3,168.21,72.09
+2024-01-25,Northeast,Frozen,Waffles,26,5.4,140.4,91.26,49.14
+2024-01-25,Midwest,Produce,Lettuce,14,2.26,31.64,22.15,9.49
+2024-01-26,Midwest,Bakery,Muffins,179,3.64,651.56,390.94,260.62
+2024-01-27,Midwest,Frozen,Frozen Vegetables,21,5.11,107.31,69.75,37.56
+2024-01-28,Midwest,Produce,Lettuce,196,2.51,491.96,344.37,147.59
+2024-01-29,Midwest,Beverages,Coffee,87,2.77,240.99,132.54,108.45
+2024-01-30,Midwest,Bakery,White Bread,22,3.9,85.8,51.48,34.32
+2024-01-31,Midwest,Frozen,Frozen Pizza,83,6.2,514.6,334.49,180.11
+2024-02-01,West,Produce,Carrots,192,2.22,426.24,298.37,127.87
+2024-02-02,Southeast,Produce,Tomatoes,151,2.38,359.38,251.57,107.81
+2024-02-03,Southeast,Frozen,Waffles,144,6.21,894.24,581.26,312.98
+2024-02-05,Midwest,Dairy,Butter,40,5.09,203.6,162.88,40.72
+2024-02-07,Midwest,Bakery,Whole Wheat Bread,26,3.17,82.42,49.45,32.97
+2024-02-07,Midwest,Frozen,Frozen Vegetables,189,5.27,996.03,647.42,348.61
+2024-02-08,West,Beverages,Orange Juice,22,3.43,75.46,41.5,33.96
+2024-02-08,West,Bakery,Bagels,169,4.07,687.83,412.7,275.13
+2024-02-08,Southeast,Beverages,Orange Juice,55,3.8,209.0,114.95,94.05
+2024-02-08,Southeast,Beverages,Sports Drink,93,2.59,240.87,132.48,108.39
+2024-02-09,Southeast,Dairy,Cheese,155,4.9,759.5,607.6,151.9
+2024-02-09,Southeast,Bakery,Whole Wheat Bread,194,3.96,768.24,460.94,307.3
+2024-02-10,Midwest,Frozen,Frozen Pizza,146,7.17,1046.82,680.43,366.39
+2024-02-10,Midwest,Bakery,Whole Wheat Bread,48,3.84,184.32,110.59,73.73
+2024-02-10,West,Beverages,Coffee,149,2.95,439.55,241.75,197.8
+2024-02-10,Southeast,Frozen,Frozen Vegetables,132,5.68,749.76,487.34,262.42
+2024-02-11,Northeast,Dairy,Cheese,108,4.65,502.2,401.76,100.44
+2024-02-11,West,Produce,Tomatoes,23,3.25,74.75,52.32,22.43
+2024-02-13,Northeast,Produce,Tomatoes,116,2.81,325.96,228.17,97.79
+2024-02-13,Midwest,Frozen,Frozen Pizza,200,7.09,1418.0,921.7,496.3
+2024-02-13,Southeast,Beverages,Sports Drink,174,3.62,629.88,346.43,283.45
+2024-02-13,Northeast,Beverages,Coffee,185,3.06,566.1,311.36,254.74
+2024-02-14,West,Produce,Bananas,45,2.66,119.7,83.79,35.91
+2024-02-14,Northeast,Frozen,Waffles,152,6.6,1003.2,652.08,351.12
+2024-02-14,West,Produce,Bananas,63,3.04,191.52,134.06,57.46
+2024-02-15,West,Produce,Bananas,121,2.79,337.59,236.31,101.28
+2024-02-16,Midwest,Produce,Bananas,170,2.3,391.0,273.7,117.3
+2024-02-16,West,Frozen,Frozen Pizza,125,7.55,943.75,613.44,330.31
+2024-02-16,West,Produce,Lettuce,43,2.7,116.1,81.27,34.83
+2024-02-17,West,Beverages,Sparkling Water,187,3.81,712.47,391.86,320.61
+2024-02-17,West,Bakery,White Bread,146,3.6,525.6,315.36,210.24
+2024-02-19,West,Bakery,Muffins,115,3.71,426.65,255.99,170.66
+2024-02-20,Northeast,Dairy,Yogurt,179,3.55,635.45,508.36,127.09
+2024-02-20,Southeast,Dairy,Cheese,19,3.92,74.48,59.58,14.9
+2024-02-21,Midwest,Frozen,Frozen Pizza,72,7.1,511.2,332.28,178.92
+2024-02-22,Midwest,Beverages,Sports Drink,18,2.59,46.62,25.64,20.98
+2024-02-22,Midwest,Bakery,Bagels,88,3.68,323.84,194.3,129.54
+2024-02-23,Northeast,Dairy,Butter,67,4.93,330.31,264.25,66.06
+2024-02-25,Northeast,Dairy,Cheese,147,4.21,618.87,495.1,123.77
+2024-02-25,West,Produce,Lettuce,66,2.35,155.1,108.57,46.53
+2024-02-25,Midwest,Bakery,Muffins,111,4.46,495.06,297.04,198.02
+2024-02-25,Northeast,Frozen,Frozen Pizza,168,7.49,1258.32,817.91,440.41
+2024-02-27,Southeast,Dairy,Butter,175,3.86,675.5,540.4,135.1
+2024-02-28,Southeast,Frozen,Frozen Pizza,82,6.93,568.26,369.37,198.89
+2024-03-01,West,Dairy,Cheese,111,5.05,560.55,448.44,112.11
+2024-03-01,Northeast,Bakery,White Bread,56,3.56,199.36,119.62,79.74
+2024-03-03,West,Dairy,Butter,180,4.36,784.8,627.84,156.96
+2024-03-03,West,Produce,Bananas,174,2.84,494.16,345.91,148.25
+2024-03-05,Southeast,Produce,Lettuce,35,2.72,95.2,66.64,28.56
+2024-03-06,West,Beverages,Coffee,77,3.26,251.02,138.06,112.96
+2024-03-06,Midwest,Frozen,Frozen Vegetables,14,6.08,85.12,55.33,29.79
+2024-03-07,Southeast,Dairy,Butter,151,4.67,705.17,564.14,141.03
+2024-03-07,Midwest,Beverages,Sparkling Water,181,2.72,492.32,270.78,221.54
+2024-03-08,Southeast,Produce,Bananas,104,2.45,254.8,178.36,76.44
+2024-03-08,Southeast,Frozen,Waffles,41,5.18,212.38,138.05,74.33
+2024-03-10,West,Bakery,Muffins,124,4.34,538.16,322.9,215.26
+2024-03-11,Southeast,Bakery,Bagels,40,2.99,119.6,71.76,47.84
+2024-03-11,Northeast,Produce,Carrots,35,2.7,94.5,66.15,28.35
+2024-03-12,Northeast,Frozen,Frozen Pizza,102,6.6,673.2,437.58,235.62
+2024-03-12,Southeast,Bakery,Bagels,136,3.2,435.2,261.12,174.08
+2024-03-13,Midwest,Produce,Carrots,108,3.1,334.8,234.36,100.44
+2024-03-13,West,Frozen,Ice Cream,157,6.14,963.98,626.59,337.39
+2024-03-14,West,Produce,Bananas,199,2.84,565.16,395.61,169.55
+2024-03-15,Northeast,Beverages,Sparkling Water,54,2.7,145.8,80.19,65.61
+2024-03-17,Southeast,Dairy,Milk,25,3.7,92.5,74.0,18.5
+2024-03-17,Southeast,Frozen,Ice Cream,147,6.38,937.86,609.61,328.25
+2024-03-18,West,Dairy,Butter,138,4.79,661.02,528.82,132.2
+2024-03-19,West,Bakery,Bagels,123,4.18,514.14,308.48,205.66
+2024-03-19,West,Frozen,Frozen Pizza,124,7.77,963.48,626.26,337.22
+2024-03-21,West,Frozen,Waffles,128,5.65,723.2,470.08,253.12
+2024-03-21,West,Frozen,Waffles,176,5.64,992.64,645.22,347.42
+2024-03-21,West,Frozen,Frozen Pizza,119,5.65,672.35,437.03,235.32
+2024-03-22,West,Frozen,Frozen Vegetables,73,7.37,538.01,349.71,188.3
+2024-03-23,Midwest,Beverages,Sparkling Water,135,2.58,348.3,191.57,156.73
+2024-03-24,West,Frozen,Frozen Vegetables,173,6.96,1204.08,782.65,421.43
+2024-03-24,Northeast,Beverages,Coffee,194,3.14,609.16,335.04,274.12
+2024-03-25,Northeast,Beverages,Coffee,151,2.77,418.27,230.05,188.22
+2024-03-25,Midwest,Frozen,Frozen Vegetables,195,6.99,1363.05,885.98,477.07
+2024-03-26,West,Bakery,Muffins,86,3.74,321.64,192.98,128.66
+2024-03-26,Midwest,Beverages,Sports Drink,94,3.85,361.9,199.05,162.85
+2024-03-27,Northeast,Beverages,Sports Drink,57,3.79,216.03,118.82,97.21
+2024-03-27,West,Beverages,Sports Drink,150,3.24,486.0,267.3,218.7
+2024-03-29,Northeast,Produce,Bananas,170,2.68,455.6,318.92,136.68
+2024-04-01,Midwest,Produce,Tomatoes,48,2.4,115.2,80.64,34.56
+2024-04-02,Northeast,Dairy,Milk,166,4.97,825.02,660.02,165.0
+2024-04-02,Northeast,Bakery,Muffins,59,3.33,196.47,117.88,78.59
+2024-04-03,Midwest,Bakery,Muffins,93,3.31,307.83,184.7,123.13
+2024-04-03,Northeast,Produce,Lettuce,19,2.46,46.74,32.72,14.02
+2024-04-05,Midwest,Beverages,Sparkling Water,27,3.84,103.68,57.02,46.66
+2024-04-05,Midwest,Bakery,Bagels,155,4.04,626.2,375.72,250.48
+2024-04-05,West,Frozen,Frozen Pizza,198,6.76,1338.48,870.01,468.47
+2024-04-05,West,Beverages,Coffee,152,2.78,422.56,232.41,190.15
+2024-04-07,Southeast,Produce,Lettuce,10,2.71,27.1,18.97,8.13
+2024-04-07,Midwest,Dairy,Butter,135,4.4,594.0,475.2,118.8
+2024-04-07,Northeast,Frozen,Waffles,137,7.47,1023.39,665.2,358.19
+2024-04-07,Midwest,Bakery,Muffins,182,3.93,715.26,429.16,286.1
+2024-04-08,West,Bakery,Bagels,27,4.5,121.5,72.9,48.6
+2024-04-08,Northeast,Beverages,Sports Drink,119,3.25,386.75,212.71,174.04
+2024-04-11,Northeast,Produce,Apples,72,3.23,232.56,162.79,69.77
+2024-04-11,Midwest,Beverages,Coffee,36,3.49,125.64,69.1,56.54
+2024-04-11,West,Beverages,Sports Drink,109,2.56,279.04,153.47,125.57
+2024-04-12,Midwest,Beverages,Coffee,71,2.72,193.12,106.22,86.9
+2024-04-12,West,Bakery,Whole Wheat Bread,111,4.5,499.5,299.7,199.8
+2024-04-15,Midwest,Beverages,Coffee,160,2.84,454.4,249.92,204.48
+2024-04-15,Northeast,Produce,Tomatoes,99,2.72,269.28,188.5,80.78
+2024-04-19,Northeast,Bakery,White Bread,157,3.14,492.98,295.79,197.19
+2024-04-21,Northeast,Beverages,Orange Juice,153,2.82,431.46,237.3,194.16
+2024-04-21,Northeast,Beverages,Orange Juice,144,3.15,453.6,249.48,204.12
+2024-04-22,Southeast,Produce,Bananas,18,3.03,54.54,38.18,16.36
+2024-04-22,Midwest,Produce,Apples,68,2.2,149.6,104.72,44.88
+2024-04-22,Northeast,Frozen,Ice Cream,126,7.12,897.12,583.13,313.99
+2024-04-22,Southeast,Produce,Carrots,67,2.73,182.91,128.04,54.87
+2024-04-23,West,Dairy,Yogurt,179,4.45,796.55,637.24,159.31
+2024-04-24,Midwest,Produce,Carrots,128,2.88,368.64,258.05,110.59
+2024-04-25,West,Beverages,Sparkling Water,33,3.62,119.46,65.7,53.76
+2024-04-25,Northeast,Produce,Apples,115,2.5,287.5,201.25,86.25
+2024-04-25,Southeast,Dairy,Butter,24,4.41,105.84,84.67,21.17
+2024-04-27,Southeast,Dairy,Cheese,168,3.85,646.8,517.44,129.36
+2024-04-27,Northeast,Beverages,Sports Drink,79,2.61,206.19,113.4,92.79
+2024-04-28,Midwest,Dairy,Butter,55,5.08,279.4,223.52,55.88
+2024-04-28,Midwest,Dairy,Milk,65,4.31,280.15,224.12,56.03
+2024-04-29,Southeast,Dairy,Milk,80,4.95,396.0,316.8,79.2
+2024-04-30,West,Produce,Carrots,67,2.16,144.72,101.3,43.42
+2024-05-01,Northeast,Dairy,Butter,16,3.72,59.52,47.62,11.9
+2024-05-02,Southeast,Frozen,Ice Cream,181,6.84,1238.04,804.73,433.31
+2024-05-02,Northeast,Beverages,Orange Juice,50,2.55,127.5,70.12,57.38
+2024-05-02,West,Dairy,Butter,21,3.97,83.37,66.7,16.67
+2024-05-03,West,Frozen,Waffles,14,5.35,74.9,48.69,26.21
+2024-05-03,Northeast,Beverages,Sparkling Water,22,2.62,57.64,31.7,25.94
+2024-05-06,West,Frozen,Ice Cream,157,6.81,1069.17,694.96,374.21
+2024-05-07,Midwest,Bakery,Muffins,70,3.68,257.6,154.56,103.04
+2024-05-08,Midwest,Frozen,Frozen Vegetables,151,7.62,1150.62,747.9,402.72
+2024-05-09,West,Produce,Apples,112,2.68,300.16,210.11,90.05
+2024-05-09,Southeast,Produce,Lettuce,141,3.05,430.05,301.03,129.02
+2024-05-10,West,Bakery,White Bread,129,4.39,566.31,339.79,226.52
+2024-05-10,Southeast,Dairy,Butter,27,3.56,96.12,76.9,19.22
+2024-05-13,West,Bakery,Whole Wheat Bread,60,3.49,209.4,125.64,83.76
+2024-05-14,West,Beverages,Sparkling Water,162,3.07,497.34,273.54,223.8
+2024-05-15,Northeast,Dairy,Yogurt,159,4.17,663.03,530.42,132.61
+2024-05-15,Midwest,Produce,Tomatoes,121,2.51,303.71,212.6,91.11
+2024-05-15,Southeast,Frozen,Frozen Vegetables,21,6.18,129.78,84.36,45.42
+2024-05-16,Midwest,Beverages,Coffee,146,3.53,515.38,283.46,231.92
+2024-05-16,Southeast,Bakery,White Bread,76,4.0,304.0,182.4,121.6
+2024-05-18,Southeast,Bakery,Whole Wheat Bread,40,4.11,164.4,98.64,65.76
+2024-05-19,West,Frozen,Ice Cream,101,6.59,665.59,432.63,232.96
+2024-05-20,Midwest,Bakery,White Bread,89,3.7,329.3,197.58,131.72
+2024-05-20,Southeast,Produce,Tomatoes,183,2.74,501.42,350.99,150.43
+2024-05-21,West,Dairy,Yogurt,122,3.54,431.88,345.5,86.38
+2024-05-22,Southeast,Beverages,Sports Drink,183,3.87,708.21,389.52,318.69
+2024-05-22,Northeast,Produce,Apples,198,2.33,461.34,322.94,138.4
+2024-05-22,Southeast,Dairy,Yogurt,83,4.67,387.61,310.09,77.52
+2024-05-24,West,Produce,Bananas,77,3.01,231.77,162.24,69.53
+2024-05-26,Northeast,Bakery,Bagels,91,4.38,398.58,239.15,159.43
+2024-05-27,West,Beverages,Orange Juice,126,2.67,336.42,185.03,151.39
+2024-05-27,Northeast,Produce,Lettuce,35,2.98,104.3,73.01,31.29
+2024-05-27,Southeast,Bakery,White Bread,32,4.0,128.0,76.8,51.2
+2024-05-27,Northeast,Dairy,Yogurt,125,4.51,563.75,451.0,112.75
+2024-05-28,Midwest,Dairy,Milk,107,3.9,417.3,333.84,83.46
+2024-05-28,Northeast,Beverages,Sparkling Water,157,3.36,527.52,290.14,237.38
+2024-05-29,West,Beverages,Coffee,93,3.06,284.58,156.52,128.06
+2024-05-31,Northeast,Bakery,Whole Wheat Bread,87,3.0,261.0,156.6,104.4
+2024-05-31,Southeast,Produce,Lettuce,29,2.28,66.12,46.28,19.84
+2024-05-31,Northeast,Produce,Apples,78,2.3,179.4,125.58,53.82
+2024-06-01,West,Bakery,White Bread,166,4.49,745.34,447.2,298.14
+2024-06-01,West,Dairy,Butter,147,4.27,627.69,502.15,125.54
+2024-06-02,Midwest,Dairy,Yogurt,39,5.0,195.0,156.0,39.0
+2024-06-02,West,Bakery,Muffins,87,3.29,286.23,171.74,114.49
+2024-06-03,Midwest,Beverages,Orange Juice,98,3.27,320.46,176.25,144.21
+2024-06-06,Southeast,Produce,Carrots,63,2.89,182.07,127.45,54.62
+2024-06-06,Southeast,Frozen,Frozen Pizza,129,6.96,897.84,583.6,314.24
+2024-06-09,West,Beverages,Orange Juice,108,3.76,406.08,223.34,182.74
+2024-06-10,Northeast,Frozen,Waffles,174,6.34,1103.16,717.05,386.11
+2024-06-10,Midwest,Beverages,Coffee,59,2.84,167.56,92.16,75.4
+2024-06-10,Midwest,Dairy,Cheese,192,4.88,936.96,749.57,187.39
+2024-06-12,Northeast,Frozen,Frozen Pizza,78,6.31,492.18,319.92,172.26
+2024-06-14,Northeast,Bakery,Bagels,30,3.37,101.1,60.66,40.44
+2024-06-15,Northeast,Frozen,Ice Cream,100,7.25,725.0,471.25,253.75
+2024-06-15,Northeast,Beverages,Sports Drink,186,3.79,704.94,387.72,317.22
+2024-06-16,Southeast,Frozen,Frozen Vegetables,117,5.78,676.26,439.57,236.69
+2024-06-18,Southeast,Produce,Carrots,139,2.47,343.33,240.33,103.0
+2024-06-19,West,Dairy,Yogurt,50,4.82,241.0,192.8,48.2
+2024-06-19,West,Frozen,Frozen Vegetables,58,7.75,449.5,292.18,157.32
+2024-06-19,Northeast,Produce,Tomatoes,172,2.25,387.0,270.9,116.1
+2024-06-19,West,Beverages,Sports Drink,48,3.37,161.76,88.97,72.79
+2024-06-19,Southeast,Produce,Bananas,58,3.21,186.18,130.33,55.85
+2024-06-21,Midwest,Produce,Lettuce,34,2.53,86.02,60.21,25.81
+2024-06-21,Northeast,Beverages,Sports Drink,97,3.76,364.72,200.6,164.12
+2024-06-22,Midwest,Bakery,White Bread,94,3.12,293.28,175.97,117.31
+2024-06-23,Southeast,Beverages,Sparkling Water,152,2.56,389.12,214.02,175.1
+2024-06-23,Northeast,Bakery,Bagels,194,3.49,677.06,406.24,270.82
+2024-06-24,Northeast,Bakery,Muffins,74,4.4,325.6,195.36,130.24
+2024-06-25,Southeast,Produce,Lettuce,147,2.27,333.69,233.58,100.11
+2024-06-25,West,Dairy,Yogurt,141,4.41,621.81,497.45,124.36
+2024-06-26,Northeast,Bakery,Whole Wheat Bread,195,4.18,815.1,489.06,326.04
+2024-06-27,Midwest,Frozen,Frozen Pizza,111,6.46,717.06,466.09,250.97
+2024-06-27,Midwest,Dairy,Butter,145,3.63,526.35,421.08,105.27
+2024-06-28,Northeast,Produce,Apples,17,3.19,54.23,37.96,16.27
+2024-06-28,Southeast,Produce,Carrots,156,2.38,371.28,259.9,111.38
+2024-06-28,Southeast,Frozen,Ice Cream,162,7.01,1135.62,738.15,397.47
+2024-06-29,Southeast,Frozen,Waffles,147,7.12,1046.64,680.32,366.32
+2024-06-29,West,Bakery,White Bread,29,4.03,116.87,70.12,46.75
+2024-06-30,West,Produce,Carrots,163,2.48,404.24,282.97,121.27
+2024-07-01,Midwest,Bakery,Bagels,41,4.23,173.43,104.06,69.37
+2024-07-02,Southeast,Bakery,Bagels,141,4.37,616.17,369.7,246.47
+2024-07-02,Midwest,Frozen,Ice Cream,59,7.3,430.7,279.95,150.75
+2024-07-03,Midwest,Produce,Bananas,178,2.87,510.86,357.6,153.26
+2024-07-03,Southeast,Produce,Carrots,180,3.14,565.2,395.64,169.56
+2024-07-04,Northeast,Produce,Apples,179,2.38,426.02,298.21,127.81
+2024-07-04,Southeast,Dairy,Milk,71,4.98,353.58,282.86,70.72
+2024-07-06,Southeast,Dairy,Yogurt,133,5.14,683.62,546.9,136.72
+2024-07-07,Northeast,Beverages,Orange Juice,51,3.85,196.35,107.99,88.36
+2024-07-07,Southeast,Produce,Lettuce,80,2.34,187.2,131.04,56.16
+2024-07-07,West,Beverages,Coffee,166,3.74,620.84,341.46,279.38
+2024-07-07,Southeast,Produce,Lettuce,159,2.47,392.73,274.91,117.82
+2024-07-07,West,Frozen,Frozen Vegetables,158,5.11,807.38,524.8,282.58
+2024-07-10,Southeast,Produce,Carrots,27,2.51,67.77,47.44,20.33
+2024-07-10,Midwest,Beverages,Sports Drink,178,3.21,571.38,314.26,257.12
+2024-07-11,West,Dairy,Butter,31,4.79,148.49,118.79,29.7
+2024-07-12,Midwest,Beverages,Sparkling Water,170,3.39,576.3,316.96,259.34
+2024-07-12,West,Produce,Tomatoes,44,2.86,125.84,88.09,37.75
+2024-07-13,Northeast,Frozen,Frozen Vegetables,75,7.16,537.0,349.05,187.95
+2024-07-14,West,Dairy,Cheese,164,3.65,598.6,478.88,119.72
+2024-07-15,Northeast,Beverages,Coffee,27,2.92,78.84,43.36,35.48
+2024-07-15,West,Produce,Bananas,107,2.77,296.39,207.47,88.92
+2024-07-18,Southeast,Frozen,Frozen Vegetables,118,6.98,823.64,535.37,288.27
+2024-07-18,Southeast,Frozen,Ice Cream,186,7.06,1313.16,853.55,459.61
+2024-07-19,Midwest,Bakery,Bagels,127,3.95,501.65,300.99,200.66
+2024-07-20,Southeast,Bakery,Bagels,46,3.29,151.34,90.8,60.54
+2024-07-20,Southeast,Produce,Tomatoes,61,2.79,170.19,119.13,51.06
+2024-07-21,Southeast,Dairy,Yogurt,20,3.92,78.4,62.72,15.68
+2024-07-21,Southeast,Beverages,Sports Drink,94,3.14,295.16,162.34,132.82
+2024-07-23,West,Produce,Carrots,119,2.48,295.12,206.58,88.54
+2024-07-24,Southeast,Produce,Bananas,155,3.11,482.05,337.44,144.61
+2024-07-24,West,Produce,Lettuce,192,3.15,604.8,423.36,181.44
+2024-07-24,West,Dairy,Cheese,24,3.65,87.6,70.08,17.52
+2024-07-26,West,Bakery,White Bread,113,3.01,340.13,204.08,136.05
+2024-07-26,Southeast,Beverages,Coffee,17,2.74,46.58,25.62,20.96
+2024-07-26,Southeast,Produce,Carrots,104,2.82,293.28,205.3,87.98
+2024-07-26,West,Beverages,Coffee,188,2.85,535.8,294.69,241.11
+2024-07-27,Midwest,Dairy,Milk,128,5.1,652.8,522.24,130.56
+2024-07-27,Midwest,Produce,Apples,100,2.75,275.0,192.5,82.5
+2024-07-28,Southeast,Frozen,Frozen Vegetables,151,5.44,821.44,533.94,287.5
+2024-07-28,Midwest,Dairy,Yogurt,174,3.53,614.22,491.38,122.84
+2024-07-28,West,Dairy,Yogurt,71,3.85,273.35,218.68,54.67
+2024-07-29,Southeast,Dairy,Butter,166,3.91,649.06,519.25,129.81
+2024-07-30,Midwest,Beverages,Coffee,199,2.75,547.25,300.99,246.26
+2024-07-31,West,Frozen,Ice Cream,126,6.59,830.34,539.72,290.62
+2024-07-31,Southeast,Beverages,Sparkling Water,10,2.93,29.3,16.12,13.18
+2024-07-31,Northeast,Dairy,Cheese,148,4.98,737.04,589.63,147.41
+2024-07-31,Midwest,Produce,Bananas,99,2.48,245.52,171.86,73.66
+2024-08-01,Northeast,Frozen,Ice Cream,75,5.65,423.75,275.44,148.31
+2024-08-02,Northeast,Dairy,Yogurt,157,4.7,737.9,590.32,147.58
+2024-08-03,West,Dairy,Yogurt,113,4.39,496.07,396.86,99.21
+2024-08-03,West,Produce,Lettuce,102,2.84,289.68,202.78,86.9
+2024-08-04,Northeast,Bakery,Muffins,73,4.35,317.55,190.53,127.02
+2024-08-06,Northeast,Frozen,Frozen Vegetables,124,5.21,646.04,419.93,226.11
+2024-08-07,Midwest,Beverages,Sparkling Water,17,2.79,47.43,26.09,21.34
+2024-08-07,Midwest,Beverages,Sparkling Water,71,3.32,235.72,129.65,106.07
+2024-08-07,Northeast,Frozen,Frozen Vegetables,92,7.34,675.28,438.93,236.35
+2024-08-08,Northeast,Dairy,Butter,154,4.63,713.02,570.42,142.6
+2024-08-08,Midwest,Produce,Tomatoes,194,3.1,601.4,420.98,180.42
+2024-08-08,West,Dairy,Butter,96,4.89,469.44,375.55,93.89
+2024-08-08,Northeast,Dairy,Butter,146,4.67,681.82,545.46,136.36
+2024-08-08,Northeast,Bakery,Bagels,164,4.47,733.08,439.85,293.23
+2024-08-08,Midwest,Produce,Apples,76,2.37,180.12,126.08,54.04
+2024-08-11,West,Frozen,Waffles,96,7.73,742.08,482.35,259.73
+2024-08-12,Southeast,Beverages,Orange Juice,180,3.65,657.0,361.35,295.65
+2024-08-12,Northeast,Bakery,Bagels,82,3.59,294.38,176.63,117.75
+2024-08-12,West,Bakery,White Bread,86,3.05,262.3,157.38,104.92
+2024-08-13,Midwest,Frozen,Waffles,171,5.92,1012.32,658.01,354.31
+2024-08-15,West,Dairy,Yogurt,35,5.17,180.95,144.76,36.19
+2024-08-15,Midwest,Bakery,Bagels,191,3.08,588.28,352.97,235.31
+2024-08-15,West,Dairy,Milk,154,3.46,532.84,426.27,106.57
+2024-08-17,Northeast,Beverages,Coffee,89,3.85,342.65,188.46,154.19
+2024-08-18,Northeast,Frozen,Waffles,96,5.18,497.28,323.23,174.05
+2024-08-18,West,Bakery,White Bread,69,3.43,236.67,142.0,94.67
+2024-08-18,Southeast,Beverages,Orange Juice,42,3.87,162.54,89.4,73.14
+2024-08-20,Midwest,Bakery,Whole Wheat Bread,139,4.41,612.99,367.79,245.2
+2024-08-21,Midwest,Dairy,Butter,177,5.15,911.55,729.24,182.31
+2024-08-21,Midwest,Beverages,Sports Drink,182,3.64,662.48,364.36,298.12
+2024-08-21,Northeast,Beverages,Sports Drink,99,3.19,315.81,173.7,142.11
+2024-08-22,Southeast,Produce,Apples,127,2.82,358.14,250.7,107.44
+2024-08-23,Southeast,Bakery,Whole Wheat Bread,67,3.01,201.67,121.0,80.67
+2024-08-23,Northeast,Frozen,Ice Cream,197,6.51,1282.47,833.61,448.86
+2024-08-23,Southeast,Beverages,Sparkling Water,183,3.59,656.97,361.33,295.64
+2024-08-25,Southeast,Frozen,Frozen Pizza,45,5.22,234.9,152.69,82.21
+2024-08-26,West,Produce,Bananas,117,2.56,299.52,209.66,89.86
+2024-08-26,Southeast,Dairy,Cheese,43,4.18,179.74,143.79,35.95
+2024-08-26,Midwest,Frozen,Frozen Vegetables,62,6.1,378.2,245.83,132.37
+2024-08-27,Southeast,Beverages,Orange Juice,184,3.52,647.68,356.22,291.46
+2024-08-27,Northeast,Beverages,Orange Juice,110,3.35,368.5,202.68,165.82
+2024-08-28,West,Frozen,Frozen Vegetables,57,7.71,439.47,285.66,153.81
+2024-08-28,Northeast,Bakery,Muffins,128,4.19,536.32,321.79,214.53
+2024-08-29,Northeast,Frozen,Waffles,167,5.11,853.37,554.69,298.68
+2024-08-29,Midwest,Dairy,Cheese,153,3.99,610.47,488.38,122.09
+2024-08-29,Midwest,Dairy,Milk,150,5.16,774.0,619.2,154.8
+2024-08-30,Southeast,Frozen,Frozen Vegetables,100,7.0,700.0,455.0,245.0
+2024-08-30,West,Frozen,Ice Cream,136,7.71,1048.56,681.56,367.0
+2024-09-02,West,Beverages,Sports Drink,149,2.6,387.4,213.07,174.33
+2024-09-03,Northeast,Frozen,Frozen Pizza,52,6.12,318.24,206.86,111.38
+2024-09-04,Southeast,Beverages,Sparkling Water,35,3.67,128.45,70.65,57.8
+2024-09-05,Northeast,Beverages,Coffee,195,3.81,742.95,408.62,334.33
+2024-09-06,Midwest,Beverages,Orange Juice,70,3.4,238.0,130.9,107.1
+2024-09-07,West,Bakery,White Bread,186,3.56,662.16,397.3,264.86
+2024-09-07,West,Frozen,Ice Cream,197,7.25,1428.25,928.36,499.89
+2024-09-08,Midwest,Frozen,Frozen Vegetables,114,6.0,684.0,444.6,239.4
+2024-09-08,Northeast,Produce,Bananas,28,2.63,73.64,51.55,22.09
+2024-09-10,West,Bakery,White Bread,37,3.65,135.05,81.03,54.02
+2024-09-11,West,Bakery,Bagels,31,4.12,127.72,76.63,51.09
+2024-09-11,Southeast,Bakery,Muffins,72,4.24,305.28,183.17,122.11
+2024-09-11,Midwest,Produce,Lettuce,139,2.64,366.96,256.87,110.09
+2024-09-12,Midwest,Beverages,Coffee,193,2.74,528.82,290.85,237.97
+2024-09-12,West,Bakery,White Bread,145,4.42,640.9,384.54,256.36
+2024-09-13,Southeast,Produce,Lettuce,199,2.17,431.83,302.28,129.55
+2024-09-13,Southeast,Produce,Apples,121,2.39,289.19,202.43,86.76
+2024-09-14,Northeast,Produce,Tomatoes,30,3.08,92.4,64.68,27.72
+2024-09-14,Northeast,Beverages,Coffee,53,3.44,182.32,100.28,82.04
+2024-09-17,West,Beverages,Orange Juice,21,2.6,54.6,30.03,24.57
+2024-09-18,West,Dairy,Milk,82,4.33,355.06,284.05,71.01
+2024-09-18,Northeast,Bakery,Bagels,196,4.48,878.08,526.85,351.23
+2024-09-19,Midwest,Frozen,Ice Cream,167,5.22,871.74,566.63,305.11
+2024-09-19,Northeast,Frozen,Frozen Pizza,66,7.31,482.46,313.6,168.86
+2024-09-20,Northeast,Bakery,Bagels,51,3.59,183.09,109.85,73.24
+2024-09-20,Midwest,Dairy,Butter,25,5.19,129.75,103.8,25.95
+2024-09-22,West,Beverages,Orange Juice,77,3.6,277.2,152.46,124.74
+2024-09-22,Northeast,Frozen,Frozen Vegetables,110,6.35,698.5,454.03,244.47
+2024-09-23,West,Produce,Bananas,193,2.78,536.54,375.58,160.96
+2024-09-23,Northeast,Frozen,Frozen Vegetables,80,5.26,420.8,273.52,147.28
+2024-09-25,Midwest,Frozen,Frozen Vegetables,200,6.02,1204.0,782.6,421.4
+2024-09-26,Midwest,Produce,Lettuce,124,3.0,372.0,260.4,111.6
+2024-09-29,West,Beverages,Sparkling Water,131,3.65,478.15,262.98,215.17
+2024-09-30,Northeast,Bakery,White Bread,23,3.85,88.55,53.13,35.42
+2024-10-01,Southeast,Produce,Apples,76,2.33,177.08,123.96,53.12
+2024-10-01,Southeast,Produce,Tomatoes,188,2.88,541.44,379.01,162.43
+2024-10-01,Northeast,Bakery,Bagels,60,3.7,222.0,133.2,88.8
+2024-10-02,Northeast,Bakery,Muffins,27,4.47,120.69,72.41,48.28
+2024-10-02,Northeast,Frozen,Waffles,104,6.91,718.64,467.12,251.52
+2024-10-02,Southeast,Beverages,Sparkling Water,45,2.7,121.5,66.83,54.67
+2024-10-03,Midwest,Produce,Bananas,52,2.58,134.16,93.91,40.25
+2024-10-03,Midwest,Bakery,Whole Wheat Bread,162,3.57,578.34,347.0,231.34
+2024-10-04,Southeast,Bakery,Whole Wheat Bread,192,4.09,785.28,471.17,314.11
+2024-10-04,Midwest,Beverages,Orange Juice,29,3.83,111.07,61.09,49.98
+2024-10-05,Midwest,Frozen,Waffles,21,6.82,143.22,93.09,50.13
+2024-10-05,West,Bakery,White Bread,175,3.28,574.0,344.4,229.6
+2024-10-05,West,Beverages,Sports Drink,68,2.88,195.84,107.71,88.13
+2024-10-06,Midwest,Bakery,Whole Wheat Bread,120,3.18,381.6,228.96,152.64
+2024-10-06,Northeast,Frozen,Ice Cream,79,6.28,496.12,322.48,173.64
+2024-10-06,Southeast,Dairy,Butter,188,4.26,800.88,640.7,160.18
+2024-10-06,Northeast,Beverages,Orange Juice,196,3.17,621.32,341.73,279.59
+2024-10-07,Northeast,Beverages,Coffee,52,2.99,155.48,85.51,69.97
+2024-10-09,Southeast,Bakery,Muffins,129,3.82,492.78,295.67,197.11
+2024-10-09,West,Produce,Apples,189,2.32,438.48,306.94,131.54
+2024-10-10,Northeast,Bakery,Bagels,164,3.31,542.84,325.7,217.14
+2024-10-11,West,Dairy,Cheese,85,3.79,322.15,257.72,64.43
+2024-10-13,Southeast,Frozen,Waffles,150,6.3,945.0,614.25,330.75
+2024-10-13,West,Frozen,Ice Cream,113,6.8,768.4,499.46,268.94
+2024-10-14,Midwest,Produce,Apples,186,3.14,584.04,408.83,175.21
+2024-10-14,Southeast,Beverages,Coffee,175,2.64,462.0,254.1,207.9
+2024-10-14,West,Frozen,Waffles,116,7.02,814.32,529.31,285.01
+2024-10-15,Midwest,Produce,Tomatoes,64,2.69,172.16,120.51,51.65
+2024-10-15,West,Beverages,Sparkling Water,170,2.98,506.6,278.63,227.97
+2024-10-17,Midwest,Produce,Bananas,50,2.97,148.5,103.95,44.55
+2024-10-18,Northeast,Beverages,Orange Juice,168,2.66,446.88,245.78,201.1
+2024-10-18,Northeast,Bakery,Bagels,28,3.58,100.24,60.14,40.1
+2024-10-19,West,Dairy,Butter,114,3.74,426.36,341.09,85.27
+2024-10-19,Northeast,Bakery,Muffins,138,3.21,442.98,265.79,177.19
+2024-10-20,Northeast,Beverages,Sparkling Water,111,2.97,329.67,181.32,148.35
+2024-10-20,Midwest,Bakery,Bagels,148,4.27,631.96,379.18,252.78
+2024-10-21,Southeast,Bakery,White Bread,178,3.6,640.8,384.48,256.32
+2024-10-22,Midwest,Dairy,Cheese,154,5.11,786.94,629.55,157.39
+2024-10-23,Northeast,Produce,Tomatoes,132,2.32,306.24,214.37,91.87
+2024-10-25,West,Bakery,Whole Wheat Bread,45,3.78,170.1,102.06,68.04
+2024-10-26,Midwest,Beverages,Sports Drink,132,2.56,337.92,185.86,152.06
+2024-10-27,Northeast,Dairy,Milk,181,5.03,910.43,728.34,182.09
+2024-10-28,Southeast,Beverages,Sports Drink,52,3.38,175.76,96.67,79.09
+2024-10-29,Northeast,Frozen,Waffles,22,7.73,170.06,110.54,59.52
+2024-10-30,Southeast,Bakery,Whole Wheat Bread,32,3.41,109.12,65.47,43.65
+2024-10-30,West,Beverages,Sparkling Water,21,2.85,59.85,32.92,26.93
+2024-10-31,Northeast,Frozen,Frozen Pizza,44,5.92,260.48,169.31,91.17
+2024-11-01,Southeast,Frozen,Frozen Pizza,84,6.22,522.48,339.61,182.87
+2024-11-01,Northeast,Bakery,Bagels,84,3.88,325.92,195.55,130.37
+2024-11-02,Midwest,Produce,Bananas,87,3.19,277.53,194.27,83.26
+2024-11-04,Northeast,Bakery,White Bread,159,4.02,639.18,383.51,255.67
+2024-11-05,Southeast,Beverages,Orange Juice,17,2.66,45.22,24.87,20.35
+2024-11-06,West,Dairy,Cheese,192,3.96,760.32,608.26,152.06
+2024-11-06,Southeast,Frozen,Waffles,123,6.92,851.16,553.25,297.91
+2024-11-06,West,Frozen,Frozen Vegetables,65,7.14,464.1,301.67,162.43
+2024-11-06,Northeast,Bakery,Bagels,197,4.53,892.41,535.45,356.96
+2024-11-06,Southeast,Frozen,Waffles,147,7.27,1068.69,694.65,374.04
+2024-11-07,West,Produce,Carrots,70,2.46,172.2,120.54,51.66
+2024-11-07,West,Produce,Bananas,27,2.39,64.53,45.17,19.36
+2024-11-08,Midwest,Frozen,Waffles,171,6.65,1137.15,739.15,398.0
+2024-11-11,Southeast,Beverages,Sparkling Water,139,3.67,510.13,280.57,229.56
+2024-11-12,Northeast,Beverages,Sports Drink,125,3.78,472.5,259.88,212.62
+2024-11-13,Northeast,Frozen,Ice Cream,69,6.35,438.15,284.8,153.35
+2024-11-13,Southeast,Bakery,Bagels,111,3.1,344.1,206.46,137.64
+2024-11-14,West,Frozen,Frozen Pizza,62,5.82,360.84,234.55,126.29
+2024-11-15,Southeast,Frozen,Frozen Vegetables,126,6.46,813.96,529.07,284.89
+2024-11-16,Southeast,Beverages,Coffee,49,3.05,149.45,82.2,67.25
+2024-11-16,Northeast,Frozen,Frozen Pizza,149,5.71,850.79,553.01,297.78
+2024-11-17,West,Frozen,Waffles,29,6.81,197.49,128.37,69.12
+2024-11-18,Northeast,Dairy,Yogurt,151,3.42,516.42,413.14,103.28
+2024-11-18,West,Dairy,Cheese,18,4.43,79.74,63.79,15.95
+2024-11-20,Southeast,Produce,Bananas,182,2.47,449.54,314.68,134.86
+2024-11-21,Southeast,Dairy,Yogurt,100,3.78,378.0,302.4,75.6
+2024-11-21,Southeast,Dairy,Yogurt,167,4.36,728.12,582.5,145.62
+2024-11-23,Midwest,Produce,Carrots,72,2.38,171.36,119.95,51.41
+2024-11-24,Southeast,Dairy,Butter,168,4.55,764.4,611.52,152.88
+2024-11-24,West,Dairy,Butter,79,3.75,296.25,237.0,59.25
+2024-11-25,West,Beverages,Sparkling Water,188,3.11,584.68,321.57,263.11
+2024-11-26,Northeast,Dairy,Milk,47,3.86,181.42,145.14,36.28
+2024-11-26,Northeast,Produce,Bananas,191,2.62,500.42,350.29,150.13
+2024-11-26,Southeast,Bakery,Muffins,155,3.03,469.65,281.79,187.86
+2024-11-27,Northeast,Frozen,Frozen Vegetables,140,7.0,980.0,637.0,343.0
+2024-11-27,Midwest,Frozen,Frozen Vegetables,33,6.55,216.15,140.5,75.65
+2024-11-28,West,Dairy,Butter,160,3.9,624.0,499.2,124.8
+2024-11-28,Midwest,Bakery,Muffins,91,3.96,360.36,216.22,144.14
+2024-11-29,Southeast,Beverages,Sports Drink,129,3.14,405.06,222.78,182.28
+2024-11-29,West,Bakery,Whole Wheat Bread,159,3.66,581.94,349.16,232.78
+2024-11-30,Northeast,Bakery,White Bread,125,3.39,423.75,254.25,169.5
+2024-12-01,Northeast,Dairy,Cheese,47,4.68,219.96,175.97,43.99
+2024-12-02,Southeast,Bakery,Whole Wheat Bread,181,4.1,742.1,445.26,296.84
+2024-12-02,Midwest,Beverages,Sparkling Water,44,2.61,114.84,63.16,51.68
+2024-12-03,Northeast,Produce,Apples,89,3.01,267.89,187.52,80.37
+2024-12-03,Southeast,Frozen,Frozen Pizza,25,7.8,195.0,126.75,68.25
+2024-12-04,Southeast,Produce,Tomatoes,175,2.51,439.25,307.47,131.78
+2024-12-05,Midwest,Produce,Lettuce,44,3.1,136.4,95.48,40.92
+2024-12-05,West,Beverages,Sports Drink,90,3.84,345.6,190.08,155.52
+2024-12-07,Midwest,Bakery,Muffins,168,4.16,698.88,419.33,279.55
+2024-12-08,Midwest,Beverages,Coffee,129,3.49,450.21,247.62,202.59
+2024-12-08,Midwest,Produce,Lettuce,45,3.07,138.15,96.7,41.45
+2024-12-09,Southeast,Frozen,Waffles,40,5.77,230.8,150.02,80.78
+2024-12-09,Midwest,Dairy,Yogurt,115,4.65,534.75,427.8,106.95
+2024-12-10,Southeast,Beverages,Sports Drink,173,3.82,660.86,363.47,297.39
+2024-12-10,Southeast,Dairy,Yogurt,46,5.17,237.82,190.26,47.56
+2024-12-10,Southeast,Beverages,Orange Juice,182,2.73,496.86,273.27,223.59
+2024-12-11,Midwest,Bakery,White Bread,54,3.72,200.88,120.53,80.35
+2024-12-12,Northeast,Produce,Lettuce,98,3.24,317.52,222.26,95.26
+2024-12-13,West,Bakery,Bagels,195,4.32,842.4,505.44,336.96
+2024-12-13,Northeast,Bakery,White Bread,133,3.14,417.62,250.57,167.05
+2024-12-14,West,Beverages,Orange Juice,108,3.07,331.56,182.36,149.2
+2024-12-14,Southeast,Beverages,Sports Drink,59,3.84,226.56,124.61,101.95
+2024-12-15,Southeast,Bakery,White Bread,85,3.66,311.1,186.66,124.44
+2024-12-16,West,Bakery,Muffins,28,4.06,113.68,68.21,45.47
+2024-12-16,Midwest,Produce,Apples,113,2.55,288.15,201.7,86.45
+2024-12-18,Midwest,Produce,Lettuce,66,2.32,153.12,107.18,45.94
+2024-12-18,Midwest,Beverages,Sports Drink,77,3.86,297.22,163.47,133.75
+2024-12-18,Northeast,Bakery,Whole Wheat Bread,80,3.12,249.6,149.76,99.84
+2024-12-19,West,Bakery,Muffins,99,3.86,382.14,229.28,152.86
+2024-12-20,Northeast,Produce,Apples,129,2.47,318.63,223.04,95.59
+2024-12-22,West,Frozen,Waffles,72,5.5,396.0,257.4,138.6
+2024-12-22,West,Produce,Tomatoes,73,3.16,230.68,161.48,69.2
+2024-12-22,West,Beverages,Coffee,116,3.43,397.88,218.83,179.05
+2024-12-23,Northeast,Frozen,Frozen Pizza,13,6.65,86.45,56.19,30.26
+2024-12-24,West,Bakery,Muffins,122,3.1,378.2,226.92,151.28
+2024-12-24,Northeast,Bakery,Whole Wheat Bread,41,4.53,185.73,111.44,74.29
+2024-12-24,Midwest,Dairy,Milk,122,3.96,483.12,386.5,96.62
+2024-12-25,Southeast,Bakery,Bagels,11,3.26,35.86,21.52,14.34
+2024-12-26,Midwest,Frozen,Ice Cream,187,5.91,1105.17,718.36,386.81
+2024-12-26,West,Dairy,Yogurt,187,5.05,944.35,755.48,188.87
+2024-12-26,Southeast,Produce,Tomatoes,38,2.19,83.22,58.25,24.97
+2024-12-27,Northeast,Produce,Lettuce,114,2.5,285.0,199.5,85.5
+2024-12-28,Northeast,Frozen,Frozen Vegetables,187,5.29,989.23,643.0,346.23
+2024-12-29,Midwest,Produce,Carrots,175,2.25,393.75,275.62,118.13
+2024-12-30,Midwest,Bakery,White Bread,51,3.4,173.4,104.04,69.36
+2024-12-30,Northeast,Frozen,Frozen Vegetables,102,5.39,549.78,357.36,192.42
